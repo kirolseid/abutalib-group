@@ -35,6 +35,18 @@ nav ul li {
   margin: 0 40px;
   color: #ffffff;
   margin-top: 20px;
+  ;
+}
+nav ul li a{
+  color: #ffffff !important;
+text-decoration: none;
+padding-bottom: 10px;
+opacity: 0.5;
+}
+
+nav ul li .active{
+  border-bottom: 1px solid #FFFFFF;
+  opacity: 1;
 }
 
 nav ul img {
@@ -372,7 +384,8 @@ footer .social a{
 
 }
 
-.summit h6{
+
+footer .summit h6{
   font-family: 'Montserrat';
 font-style: normal;
 font-weight: 400;
@@ -383,6 +396,79 @@ margin: 65px 0 35px 0;
 color: #FFFFFF;
 }
 
-.summit h6 span{
+
+footer .summit h6 span{
 color: #196FDA;
+}
+
+
+/* projects page */
+
+
+#projectPage {
+  background-image: url("../images/7 1.png");
+  height: 100vh;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+#projectPage .title{
+  height: 70%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#projectPage .title h2{
+  font-family: 'Arabic Typesetting';
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 115px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
+#allprojects h2{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+  /* identical to box height */
+  text-align: center;
+  color: #000;
+  margin: 50px 0;
+}
+
+#allprojects h2 span{
+  color: #173C66; 
+}
+
+#allprojects .one{
+  width: 90%;
+  margin: auto;
+}
+
+#allprojects .one h1{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+ margin: 15px 0;
+  color: #000000;
+}
+
+#allprojects .one a{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+color: #173C66;
+text-decoration: none;
 }
