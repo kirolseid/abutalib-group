@@ -303,7 +303,10 @@ border: 0.5px solid rgba(255, 255, 255, 0.3);
 #happening .one{
   background-color: #173C66;
   padding-bottom: 20px;
+width: 70%; 
+margin: auto;
 margin-bottom: 50px;
+
 }
 
 #happening h6{
@@ -331,7 +334,55 @@ margin: 10px 22px;
 
 footer{
    background-image: url("../images/back.jpg");
-  height: 100vh;
+  
   background-size: 100% 100%;
   background-position: center;
+}
+
+footer .logo{
+  margin: 40px 0;
+}
+
+footer .contact{
+  margin-left: 20px;
+}
+
+footer .contact p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 145.4%;
+margin: 36px 0;
+  color: #FFFFFF;
+  
+}
+
+footer .contact p svg{
+  margin-right: 25px;
+  
+}
+
+footer .social{
+  margin-left: 20px;
+}
+
+footer .social a{
+  margin-right: 50px;
+
+}
+
+.summit h6{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 145.4%;
+text-align: center;
+margin: 65px 0 35px 0;
+color: #FFFFFF;
+}
+
+.summit h6 span{
+color: #196FDA;
 }
