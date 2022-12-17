@@ -12,6 +12,10 @@
   margin: 0;
 }
 
+a{
+  text-decoration: none;
+}
+
 #wlcomsec {
   background-image: url("../images/image\ 2.png");
   height: 100vh;
@@ -472,3 +476,161 @@ line-height: 22px;
 color: #173C66;
 text-decoration: none;
 }
+
+
+#projectDetails .head{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+
+#projectDetails .head .back h3{
+  font-family: 'Montserrat';
+  margin-left: 30px;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+color: #173C66;
+}
+
+#projectDetails .head .back h3 span{
+ display: inline-block;
+ width: 30px;
+ height: 1px;
+ background-color: #173C66;
+ margin-block: 5px;
+}
+
+
+#projectDetails ul{
+  width: 67%;
+  border: none;
+}
+
+#projectDetails ul li{
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+ 
+  color: #173C66;
+  /* opacity: 0.6; */
+}
+
+#projectDetails ul li .nav-link{
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+ 
+  color: #173C66;
+  opacity: 0.6;
+}
+
+
+#projectDetails ul li .active{
+  border: none;
+  
+  font-weight: 700;
+  color: #173C66 !important;
+  border-bottom:1.5px solid #000000; ;
+  opacity: 1 !important;
+}
+
+#projectDetails .contactus button{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900 !important;
+font-size: 20px;
+line-height: 24px;
+opacity: 1 !important;
+margin-right: 30px;
+
+
+color: #173C66;
+}
+
+#projectDetails p{
+  width: 85%;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 50px;
+/* or 200% */
+color: #000000;
+  margin:30px auto;
+  display: flex;
+align-items: center;
+text-align: center;
+}
+
+#projectDetails .gallery img{
+  display: block;
+  margin:30px auto;
+}
+
+#projectDetails .location p svg{
+
+margin-right: 15px;
+
+color: #173C66;
+}
+
+#projectDetails .location .map{
+width: 90%;
+  margin:30px auto;
+  
+height: 400px;
+  }
+
+  #projectDetails .contact{
+    width: 85%;
+    margin:70px auto;
+  }
+
+  #projectDetails .contact input,
+  #projectDetails .contact textarea{
+    background: rgba(227, 227, 227, 0.68);
+border: 0.7px solid rgba(23, 60, 102, 0.7);
+border-radius: 2px;
+margin: 20px;
+padding: 10px 40px;
+  }
+
+  #projectDetails .contact input::placeholder,
+  #projectDetails .contact textarea::placeholder {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #000000;
+    
+    opacity: 0.6;
+  } 
+
+  #projectDetails .contact button{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+background: #173C66;
+padding: 15px 80px;
+border: none;
+margin: auto;
+  }
+
