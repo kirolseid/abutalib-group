@@ -26,7 +26,7 @@ a {
 nav ul {
   display: flex;
   justify-content: center;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 nav ul li {
@@ -36,14 +36,16 @@ nav ul li {
   font-weight: 600;
   font-size: 15px;
   line-height: 18px;
-  margin: 0 40px;
+  margin: 0 40px !important;
   color: #ffffff;
-  margin-top: 20px;
+  padding: 0;
+  margin-top: 20px !important;
 }
 nav ul li a {
   color: #ffffff !important;
   text-decoration: none;
-  padding-bottom: 10px;
+  padding: 0 !important;
+  padding-bottom: 10px !important;
   opacity: 0.5;
 }
 
@@ -131,42 +133,7 @@ nav ul img {
   color: #000000;
 }
 
-.respNav .arbic {
-  margin-top: 30px;
-}
 
-.respNav .arbic {
-  margin-top: 30px;
-  font-family: "Montserrat-light";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 24px;
-
-  color: #000000;
-}
-
-.respNav .arbic a {
-  font-family: "Montserrat-light";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 24px;
-
-  color: #00000087;
-}
-
-.respNav .arbic .ENactive {
-  color: #000000;
-}
-
-.respNav .social {
-  margin-top: 100px;
-}
-
-.respNav .social ul a {
-  margin-right: 8%;
-}
 
 
 #aboutsec {
