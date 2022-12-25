@@ -8,14 +8,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link id="style" rel="stylesheet" href="">
 </head>
 <body>
 
 
     <section id="wlcomsec">
 
-        <nav class="navbar navbar-expand-lg">
+        <nav  class="navbar navbar-expand-lg">
             <div class="container-fluid">
            <img class= " m-auto d-lg-none d-xl-none .d-xxl-none" src="/images/Logo.png" alt="">
             
@@ -33,13 +33,14 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html"
-                      >HOME</a
+                    <a key="navHOME" class="lang nav-link active" aria-current="page" href="index.html"
+                      ></a
                     >
                   </li>
                   <li class="nav-item">
                     <a
-                      class="nav-link servesLink"
+                    key="navservies"
+                      class="lang nav-link servesLink"
                       aria-current="page"
                       href="servises.html"
                       >SERVICES
@@ -48,26 +49,35 @@
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="projects.html"
+                    <a key="navprojects" class="lang nav-link" aria-current="page" href="projects.html"
                       >PROJECTS</a
                     >
                   </li>
                     <img src="/images/Logo.png" alt="">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="news.html"
+                    <a key="navnews" class="lang nav-link" aria-current="page" href="news.html"
                       >NEWS</a
                     >
                   </li>
   
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="about.html"
-                      >ABOUT US</a
+                    <a key="navABOUT" class="lang nav-link" aria-current="page" href="about.html"
+                      ></a
                     >
                   </li>
   
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="contactUs.html">CONTACT US</a>
+                    <a key="navCONTACT" class="lang nav-link" aria-current="page" href="contactUs.html"></a>
                   </li>
+
+                  <li class="nav-item">
+                   
+
+                    <button class="translate" id="en">en</button>
+                    <button class="translate" id="ar">ar</button>
+
+                  </li>
+                  
   
                
   
@@ -148,11 +158,12 @@
 
             <div class="col-7">
              <div class="title">
-                <h2>ABOUT</h2>
-                <h6>ABOUT US</h6>
+                <h2 class="lang" key="aboutsecTitleh2"></h2>
+                <h6 class="lang" key="aboutsecTitleh6"></h6>
              </div>
-             <p><b>Abutailb Group </b> is a leading real estate developer with more than 20 years of experience in the Egyptian market. Our deeply rooted market insights and expertise were poured to aid in the development of our real estate product that saw the light we have managed to crystallize our understanding of the market needs and the preferences of the clients in one destination for luxury that is traced across all the projects of the company</p>
-             <a href="">SEE MORE <img src="/images/Arrow 1.png" alt=""></a>
+             
+             <p class="d-inline"> <b class="lang" key="aboutsecb"></b> <p class="lang d-inline" key="aboutsecp"></p> </p>
+             <a  href=""> <span class="lang" key="aboutseca"></span><img src="/images/Arrow 1.png" alt=""></a>
             </div>
         </div>
     </section>
@@ -323,6 +334,8 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/all.min.js"></script>
+    <script src="js/lang.js"></script>
+
     <script src="js/main.js"></script>
 </body>
 </html>
