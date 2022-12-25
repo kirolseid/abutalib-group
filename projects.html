@@ -8,73 +8,84 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link id="style" rel="stylesheet" href="">
+
 </head>
 <body>
 
 
     <section id="projectPage">
       
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-           <img class= " m-auto d-lg-none d-xl-none .d-xxl-none" src="/images/Logo.png" alt="">
-            
-              <button
-                class="navbar-toggler ms-auto"
-                type="button"
-                data-bs-toggle=""
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="  navbar-dark navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto">
-                  <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="index.html"
-                      >HOME</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link servesLink"
-                      aria-current="page"
-                      href="servises.html"
-                      >SERVICES
+      <nav  class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+       <img class= " m-auto d-lg-none d-xl-none .d-xxl-none" src="/images/Logo.png" alt="">
+        
+          <button
+            class="navbar-toggler ms-auto"
+            type="button"
+            data-bs-toggle=""
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="  navbar-dark navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a key="navHOME" class="lang nav-link " aria-current="page" href="index.html"
+                  ></a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                key="navservies"
+                  class="lang nav-link servesLink"
+                  aria-current="page"
+                  href="servises.html"
+                  >
 
-                    </a>
-                  </li>
+                </a>
+              </li>
 
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="projects.html"
-                      >PROJECTS</a
-                    >
-                  </li>
-                    <img src="/images/Logo.png" alt="">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="news.html"
-                      >NEWS</a
-                    >
-                  </li>
-  
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="about.html"
-                      >ABOUT US</a
-                    >
-                  </li>
-  
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="contactUs.html">CONTACT US</a>
-                  </li>
-  
+              <li class="nav-item">
+                <a key="navprojects" class="lang nav-link active" aria-current="page" href="projects.html"
+                  ></a
+                >
+              </li>
+                <img src="/images/Logo.png" alt="">
+              <li class="nav-item">
+                <a key="navnews" class="lang nav-link" aria-current="page" href="news.html"
+                  ></a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a key="navABOUT" class="lang nav-link" aria-current="page" href="about.html"
+                  ></a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a key="navCONTACT" class="lang nav-link" aria-current="page" href="contactUs.html"></a>
+              </li>
+
+              <li class="nav-item">
                
-  
-                </ul>
-              </div>
-            </div>
-          </nav>
+
+                <button class="translate" id="en">en</button>
+                <button class="translate" id="ar">ar</button>
+
+              </li>
+              
+
+           
+
+            </ul>
+          </div>
+        </div>
+      </nav>
 
     
        <div class="closeNav d-flex">
@@ -273,6 +284,8 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/all.min.js"></script>
+    <script src="js/lang.js"></script>
+
     <script src="js/main.js"></script>
 </body>
 </html>

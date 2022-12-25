@@ -36,10 +36,28 @@ function changeLanguage(lang) {
 
   $(document).ready(function() {
     // The default language is English
-    var lang = "en";
-    location.hash = lang;
-// location.reload();
-$('#style').attr('href','css/style.css')
+    // console.log(location.hash);
+    var language =localStorage.getItem('lang')
+    console.log('ddd',language);
+    
+    if(language=='en'){
+        $('#style').attr('href','css/style.css')
+        var lang = "en";
+        location.hash = lang;
+
+    }else if(language=='ar'){
+        $('#style').attr('href','css/arstyle.css')
+
+        var lang = "ar";
+        location.hash = lang;
+
+    }else{
+        $('#style').attr('href','css/style.css')
+        var lang = "en";
+        location.hash = lang;
+
+    }
+    
     $(".lang").each(function(index, element) {
     $(this).text(arrLang[lang][$(this).attr("key")]);
     });
@@ -49,13 +67,17 @@ $('#style').attr('href','css/style.css')
   $(".translate").click(function() {
     var lang = $(this).attr("id");
     if(lang== "en"){
+        localStorage.setItem('lang','en')
         $('#style').attr('href','css/style.css')
         
     }else if(lang== "ar"  ){
+        localStorage.setItem('lang','ar')
         $('#style').attr('href','css/arstyle.css')
+
+
     }
       location.hash = lang;
-    //   location.reload();
+      location.reload();
     $(".lang").each(function(index, element) {
       $(this).text(arrLang[lang][$(this).attr("key")]);
     });
