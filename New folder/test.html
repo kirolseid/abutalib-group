@@ -33,9 +33,15 @@
           }
         };
 
+  function changeLanguage(lang) {
+     
+    }
+
         $(document).ready(function() {
           // The default language is English
           var lang = "en-gb";
+ location.hash = lang;
+      location.reload();
           $(".lang").each(function(index, element) {
             $(this).text(arrLang[lang][$(this).attr("key")]);
           });
@@ -44,7 +50,8 @@
         // get/set the selected language
         $(".translate").click(function() {
           var lang = $(this).attr("id");
-
+            location.hash = lang;
+            location.reload();
           $(".lang").each(function(index, element) {
             $(this).text(arrLang[lang][$(this).attr("key")]);
           });
