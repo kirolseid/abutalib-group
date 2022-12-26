@@ -426,18 +426,21 @@
     margin-left: 20px;
   }
   
-  footer .contact p {
+  footer .contact p{
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 145.4%;
-    margin: 36px 0;
+    margin-bottom: 36px ;
     color: #ffffff;
   }
   
-  footer .contact p svg {
-    margin-right: 25px;
+  footer .contact  svg {
+    margin-left: 25px;
+    font-size: 20px;
+    color: #ffffff;
+  
   }
   
   footer .social {

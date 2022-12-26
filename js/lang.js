@@ -27,6 +27,10 @@ var arrLang = {
       "servesseca": "VIEW MORE",
       
       "happeningsech2": "WHAT’S HAPPENING",
+
+      "footeraddress1":"Abu Bakr El Sedeek St 15 ",
+      "footeraddress2":"Fardoos - Hadayek October ",
+      "footeraddress3":"Giza Governorate, Egypt",
       
       
     },
@@ -59,8 +63,9 @@ var arrLang = {
 
       "happeningsech2": "ماذا يحدث",
 
-
-       
+      "footeraddress1":"شارع ابو بكر الصديق 15 ز ",
+      "footeraddress2":"الفردوس -حدايق اكتوبر",
+      "footeraddress3":"الجيزه-مصر",
        
     }
   };
