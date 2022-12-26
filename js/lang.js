@@ -6,14 +6,29 @@ var arrLang = {
       "navprojects": "PROJECTS",
       "navABOUT": "About Us",
       "navCONTACT": "Contact Us",
-       "aboutsecTitleh2": "ABOUT",
-       "aboutsecTitleh6": "ABOUT US",
-       "aboutsecb": "Abutailb Group ",
-
-       "aboutsecp": "is a leading real estate developer with more than 20 years of experience in the Egyptian market. Our deeply rooted market insights and expertise were poured to aid in the development of our real estate product that saw the light we have managed to crystallize our understanding of the market needs and the preferences of the clients in one destination for luxury that is traced across all the projects of the company",
-       "aboutseca": "SEE MORE ",
-       "navCONTACT": "Contact Us",
-       "navCONTACT": "Contact Us",
+      
+      "aboutsecTitleh2": "ABOUT",
+      "aboutsecTitleh6": "ABOUT US",
+      "aboutsecb": "Abutailb Group ",
+      "aboutsecp": "is a leading real estate developer with more than 20 years of experience in the Egyptian market. Our deeply rooted market insights and expertise were poured to aid in the development of our real estate product that saw the light we have managed to crystallize our understanding of the market needs and the preferences of the clients in one destination for luxury that is traced across all the projects of the company",
+      "aboutseca": "SEE MORE ",
+      
+      "buildsech2": "BUILD WITH US",
+      "buildsech3": "PROJECTS",
+      "buildsech5": "NEW COMING",
+      "buildsech1": "ABU TALIB MALL",
+      
+      "servessech2": "OUR SERVICES",
+      "servessech4.1": "COMMERCIAL PROJECTS",
+      "servessech4.2": "RESORTS",
+      "servessech4.3": "EDUCATIONAL PROJECTS",
+      "servessech4.4": "RESIDENTIAL PROJECTS",
+      "servessech3": "WHAT WE DO",
+      "servesseca": "VIEW MORE",
+      
+      "happeningsech2": "WHAT’S HAPPENING",
+      
+      
     },
     "ar": {
       "navHOME": "الرائسية",
@@ -22,11 +37,31 @@ var arrLang = {
       "navnews": "اخبار",
       "navservies": "خدمتنا",
       "navprojects": "مشروعتنا",
+      
       "aboutsecTitleh2": "عنا",
-       "aboutsecTitleh6": "عنا",
-       "aboutsecp": "هي شركة تطوير عقاري رائدة تتمتع بخبرة تزيد عن 20 عامًا في السوق المصري. تم سكب رؤيتنا وخبراتنا العميقة في السوق للمساعدة في تطوير منتجنا العقاري الذي شهد الضوء الذي تمكنا من بلورة فهمنا لاحتياجات السوق وتفضيلات العملاء في وجهة واحدة للرفاهية التي يتم تتبعها عبر الجميع مشاريع الشركة",
-       "aboutsecb": "ابو طالب جروب ",
-       "aboutseca": "المزيد",
+      "aboutsecTitleh6": "عنا",
+      "aboutsecp": "هي شركة تطوير عقاري رائدة تتمتع بخبرة تزيد عن 20 عامًا في السوق المصري. تم سكب رؤيتنا وخبراتنا العميقة في السوق للمساعدة في تطوير منتجنا العقاري الذي شهد الضوء الذي تمكنا من بلورة فهمنا لاحتياجات السوق وتفضيلات العملاء في وجهة واحدة للرفاهية التي يتم تتبعها عبر الجميع مشاريع الشركة",
+      "aboutsecb": "ابو طالب جروب ",
+      "aboutseca": "المزيد",
+      
+      "buildsech2": "ابني معنا",
+      "buildsech3": "المشاريع",
+      "buildsech5": "الجديد",
+      "buildsech1": "ابو طالب مول",
+
+      "servessech2": "خدماتنا",
+      "servessech4.1": "المشاريع التجارية",
+      "servessech4.2": "المنتجعات",
+      "servessech4.3": "المشاريع التعليمية",
+      "servessech4.4": "مشاريع سكنية",
+      "servessech3": "الذي نفعله",
+      "servesseca": "المذيد",
+
+      "happeningsech2": "ماذا يحدث",
+
+
+       
+       
     }
   };
 
