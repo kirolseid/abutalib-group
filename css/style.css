@@ -498,7 +498,11 @@ footer .summit h6 span {
   color: #ffffff;
 }
 
-#allprojects h2 {
+#allprojects .title{
+  text-align: center;
+}
+
+#allprojects .title h2{
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
@@ -510,8 +514,17 @@ footer .summit h6 span {
   margin: 50px 0;
 }
 
-#allprojects h2 span {
+#allprojects .title span {
   color: #173c66;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+  /* identical to box height */
+  text-align: center;
+
+  margin: 50px 0;
 }
 
 #allprojects .one {

@@ -32,6 +32,13 @@ var arrLang = {
       "footeraddress2":"Fardoos - Hadayek October ",
       "footeraddress3":"Giza Governorate, Egypt",
       
+      "projectPageTitleh2": "PROJECTS",
+      
+      "projectPageallprojectsh2": "PROJECTS",
+      "projectPageallprojectsh2.1":"PROJECTS",
+      "projectPageallprojectsspan": "COMMERCIAL ",
+      "projectPageallprojectsspan2": "RESORT ",
+      "allprojecta":"SEE MORE",
       
     },
     "ar": {
@@ -59,13 +66,23 @@ var arrLang = {
       "servessech4.3": "المشاريع التعليمية",
       "servessech4.4": "مشاريع سكنية",
       "servessech3": "الذي نفعله",
-      "servesseca": "المذيد",
+      "servesseca": "المزيد",
 
       "happeningsech2": "ماذا يحدث",
 
       "footeraddress1":"شارع ابو بكر الصديق 15 ز ",
       "footeraddress2":"الفردوس -حدايق اكتوبر",
-      "footeraddress3":"الجيزه-مصر",
+      "footeraddress3": "الجيزه-مصر",
+      
+
+      "projectPageTitleh2": "المشاريع",
+      
+      "projectPageallprojectsh2": "التجارية",
+      "projectPageallprojectsh2.1":"المنتجعات",
+      "projectPageallprojectsspan": "المشاريع ",
+      "projectPageallprojectsspan2": "مشاريع ",
+      "allprojecta":"المزيد",
+      
        
     }
   };
