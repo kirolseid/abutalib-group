@@ -8,76 +8,86 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link id="style" rel="stylesheet" href="">
+
 </head>
 <body>
 
 
     <section id="projectPage">
       
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-           <img class= " m-auto d-lg-none d-xl-none .d-xxl-none" src="/images/Logo.png" alt="">
-            
-              <button
-                class="navbar-toggler ms-auto"
-                type="button"
-                data-bs-toggle=""
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="  navbar-dark navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto">
-                  <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="index.html"
-                      >HOME</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link servesLink"
-                      aria-current="page"
-                      href="servises.html"
-                      >SERVICES
+      <nav  class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+       <img class= " m-auto d-lg-none d-xl-none .d-xxl-none" src="/images/Logo.png" alt="">
+        
+          <button
+            class="navbar-toggler ms-auto"
+            type="button"
+            data-bs-toggle=""
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="  navbar-dark navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a key="navHOME" class="lang nav-link " aria-current="page" href="index.html"
+                  ></a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                key="navservies"
+                  class="lang nav-link servesLink"
+                  aria-current="page"
+                  href="servises.html"
+                  >
 
-                    </a>
-                  </li>
+                </a>
+              </li>
 
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="projects.html"
-                      >PROJECTS</a
-                    >
-                  </li>
-                    <img src="/images/Logo.png" alt="">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="news.html"
-                      >NEWS</a
-                    >
-                  </li>
-  
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="about.html"
-                      >ABOUT US</a
-                    >
-                  </li>
-  
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="contactUs.html">CONTACT US</a>
-                  </li>
-  
+              <li class="nav-item">
+                <a key="navprojects" class="lang nav-link active" aria-current="page" href="projects.html"
+                  ></a
+                >
+              </li>
+                <img src="/images/Logo.png" alt="">
+              <li class="nav-item">
+                <a key="navnews" class="lang nav-link" aria-current="page" href="news.html"
+                  ></a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a key="navABOUT" class="lang nav-link" aria-current="page" href="about.html"
+                  ></a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a key="navCONTACT" class="lang nav-link" aria-current="page" href="contactUs.html"></a>
+              </li>
+
+              <li class="nav-item">
                
-  
-                </ul>
-              </div>
-            </div>
-          </nav>
 
-    
-       <div class="closeNav d-flex">
+                <button class="translate" id="en">en</button>
+                <button class="translate" id="ar">ar</button>
+
+              </li>
+              
+
+           
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div class="closeNav d-flex">
         <div class="img">
           <img src="images/Group 348 (1).png" alt="" />
         </div>
@@ -90,44 +100,26 @@
 
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html"
-                ><div class="redline active d-inline-block"></div>
-                HOME</a
-              >
+              <a class="nav-link lang" key="navHOME" aria-current="page" href="index.html"><div class="redline  d-inline-block"></div></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="servises.html"
-                ><div class="redline d-inline-block"></div>
-                SERVICES
-              </a>
+              <a key="navservies"  class=" lang nav-link" aria-current="page" href="servises.html"><div class="redline d-inline-block"></div></a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="projects.html"
-                ><div class="redline d-inline-block"></div>
-                PROJECTS</a
-              >
+              <a key="navprojects" class="nav-link lang" aria-current="page" href="projects.html"  ><div class="redline d-inline-block"></div>  </a>
+            </li>
+
+            <li class="nav-item"> 
+              <a class="nav-link lang" key="navnews" aria-current="page" href="news.html"    ><div class="redline d-inline-block"></div>    </a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="news.html"
-                  ><div class="redline d-inline-block"></div>
-                  NEWS</a
-                >
-              </li>
-
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="about.html"
-                ><div class="redline d-inline-block"></div>
-                ABOUT US</a
-              >
+              <a class="nav-link lang" key="navABOUT" aria-current="page" href="about.html"><div class="redline d-inline-block"></div></a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="contactUs.html"
-                ><div class="redline d-inline-block"></div>
-                CONTACT US</a
-              >
+              <a class="nav-link lang" key="navCONTACT" aria-current="page" href="contactUs.html"><div class="redline d-inline-block"></div> </a>
             </li>
 
           
@@ -137,8 +129,9 @@
         </div>
       </div>
 
+
        <div class="title">
-        <h2>ABU TALIB MALL</h2>
+        <h2 >ABU TALIB MALL</h2>
        </div>
 
     </section>
@@ -155,22 +148,22 @@
         <ul class="nav nav-tabs  d-flex justify-content-between" id="myTab" role="tablist">
            <div class=" d-flex justify-content-between">
             <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">About</button>
+                <button key="projectNav.1" class="nav-link lang active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"></button>
               </li>
               <li class="nav-item" role="presentation">
-                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Gallery</button>
+                <button key="projectNav.2" class="nav-link lang" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"></button>
               </li>
               <li class="nav-item" role="presentation">
-                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Layout</button>
+                <button key="projectNav.3" class="nav-link lang" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false"></button>
               </li>
               <li class="nav-item" role="presentation">
-                <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false" >Direction</button>
+                <button key="projectNav.4" class="nav-link lang" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false" ></button>
               </li>
            </div>
 
             <div class="contactus">
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="disabled-tab1" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane1" type="button" role="tab" aria-controls="disabled-tab-pane1" aria-selected="false" >CONTACT US</button>
+                        <button key="projectNav.5"  class="nav-link lang" id="disabled-tab1" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane1" type="button" role="tab" aria-controls="disabled-tab-pane1" aria-selected="false" ></button>
                     </li>
             </div>
            
@@ -254,6 +247,8 @@
 
 
 
+ 
+
   <footer >
     <div class="row">
         <div class="col-md-4">
@@ -267,6 +262,7 @@
                       <div class="col-1">
                         <i class="fa-solid fa-location-dot"></i>
                       </div>
+                      
                       <div class="col-11">
                         <p class="lang" key="footeraddress"> 
                           <span class="lang" key="footeraddress1"></span><br>
@@ -319,6 +315,7 @@
 
 
 
+
     
 
 
@@ -328,6 +325,8 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/all.min.js"></script>
+    <script src="js/lang.js"></script>
+ 
     <script src="js/main.js"></script>
 </body>
 </html>

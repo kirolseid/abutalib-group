@@ -39,6 +39,12 @@ var arrLang = {
       "projectPageallprojectsspan": "COMMERCIAL ",
       "projectPageallprojectsspan2": "RESORT ",
       "allprojecta":"SEE MORE",
+
+      "projectNav.1":"About",
+      "projectNav.2":"Gallery",
+      "projectNav.3":"Layout",
+      "projectNav.4":"Direction",
+      "projectNav.5":"CONTACT US",
       
     },
     "ar": {
@@ -82,6 +88,12 @@ var arrLang = {
       "projectPageallprojectsspan": "المشاريع ",
       "projectPageallprojectsspan2": "مشاريع ",
       "allprojecta":"المزيد",
+      
+      "projectNav.1":"عن المشروع",
+      "projectNav.2":"المعرض",
+      "projectNav.3":"رسم المشروع",
+      "projectNav.4":"المكان",
+      "projectNav.5":"تواصل معنا",
       
        
     }
