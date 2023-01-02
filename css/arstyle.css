@@ -11,6 +11,11 @@
 *{
   direction: rtl;
 }
+
+.en{
+  display: none;
+}
+
 .row {
   margin: 0;
 }
@@ -60,6 +65,19 @@ nav ul li .active {
 nav ul img {
   margin: 0 100px;
 }
+
+
+.translate {
+  border: none;
+  background-color: transparent;
+  
+}
+
+.translate span , .translate img{
+display: block;
+color: #FFF;
+}
+
 
 .closeNav {
   width: 40%;
@@ -483,7 +501,8 @@ footer .summit h6 span {
   background-position: center;
 }
 
-#projectPage .title ,#aboutPage .title ,#contactPage .title ,#resortPage .title{
+#projectPage .title ,#aboutPage .title ,#contactPage .title ,#resortPage .title,
+#educationalPage .title ,#residenralPage .title ,#commercialPage .title{
   height: 70%;
   display: flex;
   align-items: center;
@@ -492,7 +511,8 @@ footer .summit h6 span {
 
 
 
-#projectPage .title h2 , #aboutPage .title h2 ,#contactPage .title h2 ,#resortPage .title h2{
+#projectPage .title h2 , #aboutPage .title h2 ,#contactPage .title h2 ,#resortPage .title h2,
+#educationalPage .title h2 ,#residenralPage .title h2, #commercialPage .title h2{
   font-family: "Arabic Typesetting";
   font-style: normal;
   font-weight: 400;
@@ -863,7 +883,9 @@ color: #0B1F3C;
   line-height: 50px;
   /* or 252% */
   
-  
+  display: flex;
+  align-items: center;
+  text-align: center;
   text-transform: uppercase;
   
   color: #0B1F3C;
@@ -875,9 +897,30 @@ color: #0B1F3C;
   background-size: 100% 100%;
   background-position: center;
 }
+#commercialPage{
+    background-image: url("../images/ds.png");
+  height: 100vh;
+  background-size: 100% 100%;
+  background-position: center;
+}
 
 #resortPage{
   background-image: url("../images/12315.png");
+  height: 100vh;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+
+#educationalPage{
+    background-image: url("../images/7878.png");
+  height: 100vh;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+#residenralPage{
+    background-image: url("../images/999.png");
   height: 100vh;
   background-size: 100% 100%;
   background-position: center;

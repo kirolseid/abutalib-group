@@ -20,7 +20,7 @@ var arrLang = {
       
       "servessech2": "OUR SERVICES",
       "servessech4.1": "COMMERCIAL PROJECTS",
-      "servessech4.2": "RESORTS",
+      "servessech4.2": "RESORTS PROJECTS",
       "servessech4.3": "EDUCATIONAL PROJECTS",
       "servessech4.4": "RESIDENTIAL PROJECTS",
       "servessech3": "WHAT WE DO",
@@ -68,7 +68,7 @@ var arrLang = {
 
       "servessech2": "خدماتنا",
       "servessech4.1": "المشاريع التجارية",
-      "servessech4.2": "المنتجعات",
+      "servessech4.2": " مشاريع المنتجعات",
       "servessech4.3": "المشاريع التعليمية",
       "servessech4.4": "مشاريع سكنية",
       "servessech3": "الذي نفعله",
