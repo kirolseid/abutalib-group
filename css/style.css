@@ -480,7 +480,7 @@ footer .summit h6 span {
   background-position: center;
 }
 
-#projectPage .title ,#aboutPage .title ,#contactPage .title{
+#projectPage .title ,#aboutPage .title ,#contactPage .title ,#resortPage .title{
   height: 70%;
   display: flex;
   align-items: center;
@@ -489,7 +489,7 @@ footer .summit h6 span {
 
 
 
-#projectPage .title h2 , #aboutPage .title h2 ,#contactPage .title h2  {
+#projectPage .title h2 , #aboutPage .title h2 ,#contactPage .title h2 ,#resortPage .title h2{
   font-family: "Arabic Typesetting";
   font-style: normal;
   font-weight: 400;
@@ -717,7 +717,7 @@ color: #000000;
 }
 
 .onesec{
-  margin:22px 0;
+  margin:33px 0;
   padding: 100px 50px;
   background-color: #0B1F3C;
   transform: skewY(-2deg);
@@ -874,6 +874,100 @@ color: #0B1F3C;
   background-size: 100% 100%;
   background-position: center;
 }
+
+#resortPage{
+  background-image: url("../images/12315.png");
+  height: 100vh;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+
+#noproject .no{
+  background: #0B1F3C;
+
+
+
+}
+
+#noproject .no .back {
+padding: 30px 50px;
+cursor: pointer;
+
+}
+
+#noproject .no .back .line{
+  display: inline-block;
+  width: 30px;
+  height: 1px;
+  background-color: white;
+  margin-block: 6px;
+}
+
+#noproject .no .back span{
+ font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+
+}
+
+#noproject .no .contant{
+margin-top: 100px;
+text-align: center;
+
+}
+
+#noproject .no .contant p{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 50px;
+/* or 252% */
+width: 80%;
+margin: auto;
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
+
+
+#noproject .no .contant h6{
+font-family: 'Arabic Typesetting';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 50px;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-top: 35px;
+margin-bottom: 200px;
+
+
+}
+
+
+#noproject .skew{
+  /* position: relative; */
+height: 100px;
+/* margin-bottom: 30px; */
+transform: skewY(-2deg);
+background: #fff;
+  box-shadow: 40px 40px #fff;
+  margin-bottom: 100px;
+
+
+}
+
+
+
+
 @media all and (min-width: 1200px) and (max-width: 1600px) {
   #allprojects .one {
   width: 80%;
@@ -903,6 +997,12 @@ color: #0B1F3C;
   text-decoration: none;
   margin: 20px 0 80px 70px;
   color: #000000;
+}
+.onesec{
+  margin:22px 0;
+  padding: 100px 50px;
+  background-color: #0B1F3C;
+  transform: skewY(-2deg);
 }
 }
 

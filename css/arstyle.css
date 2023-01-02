@@ -7,10 +7,10 @@
   font-family: Arabic Typesetting;
   src: url("../fonts/4_3D.ttf");
 }
+
 *{
   direction: rtl;
 }
-
 .row {
   margin: 0;
 }
@@ -445,7 +445,7 @@ footer .contact p{
 }
 
 footer .contact  svg {
-  margin-left: 25px;
+  margin-right: 25px;
   font-size: 20px;
   color: #ffffff;
 
@@ -483,14 +483,16 @@ footer .summit h6 span {
   background-position: center;
 }
 
-#projectPage .title {
+#projectPage .title ,#aboutPage .title ,#contactPage .title ,#resortPage .title{
   height: 70%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#projectPage .title h2 {
+
+
+#projectPage .title h2 , #aboutPage .title h2 ,#contactPage .title h2 ,#resortPage .title h2{
   font-family: "Arabic Typesetting";
   font-style: normal;
   font-weight: 400;
@@ -529,7 +531,6 @@ footer .summit h6 span {
 
   margin: 50px 0;
 }
-
 
 #allprojects .one {
   width: 60%;
@@ -662,13 +663,13 @@ footer .summit h6 span {
   height: 600px !important;
 }
 
-#projectDetails .contact {
+ .contact {
   width: 85%;
   margin: 70px auto;
 }
 
-#projectDetails .contact input,
-#projectDetails .contact textarea {
+ .contact input,
+ .contact textarea {
   background: rgba(227, 227, 227, 0.68);
   border: 0.7px solid rgba(23, 60, 102, 0.7);
   border-radius: 2px;
@@ -676,8 +677,8 @@ footer .summit h6 span {
   padding: 10px 40px;
 }
 
-#projectDetails .contact input::placeholder,
-#projectDetails .contact textarea::placeholder {
+ .contact input::placeholder,
+ .contact textarea::placeholder {
   font-family: "Montserrat";
   font-style: italic;
   font-weight: 200;
@@ -689,7 +690,7 @@ footer .summit h6 span {
   opacity: 0.6;
 }
 
-#projectDetails .contact button {
+ .contact button {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
@@ -705,6 +706,268 @@ footer .summit h6 span {
   border: none;
   margin: auto;
 }
+
+.contact h5{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: left;
+margin-left: 20px;
+color: #000000;
+
+}
+
+.onesec{
+  margin:33px 0;
+  padding: 100px 50px;
+  background-color: #0B1F3C;
+  transform: skewY(-2deg);
+}
+
+.trdsec{
+  margin:22px 0;
+  padding: 100px 50px;
+  background-color: #0B1F3C;
+  transform: skewY(2deg);
+}
+
+.onesec .row{
+  
+  transform: skewY(2deg);
+
+}
+
+.trdsec .row{
+  
+  transform: skewY(-2deg);
+
+}
+
+.sndsec {
+  padding: 50px;
+}
+
+.sndsec h3,.sndsec p ,.sndsec a{
+  color: #000000 !important;
+}
+
+.servsespage .row h3{
+  font-family: 'Arabic Typesetting';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 50px;
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.servsespage .row p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 50px;
+  /* or 252% */
+  margin-top: 50px;
+  
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+  
+}
+
+
+.servsespage .row a{
+  
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 50px;
+/* or 252% */
+margin-top: 50px;
+
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+  
+}
+
+
+#aboutPage{
+  background-image: url("../images/image 6.png");
+  height: 100vh;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.aboutpage .col-12{
+  margin: 30px 0;
+}
+
+.aboutpage h3{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 50px;
+  /* identical to box height, or 126% */
+  
+ 
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  
+  color: rgba(23, 60, 102, 0.7);
+}
+
+.aboutpage h4{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 50px;
+text-transform: uppercase;
+
+color: #0B1F3C;
+
+}
+
+.aboutpage h5{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 50px;
+
+  text-transform: uppercase;
+  
+  color: #0B1F3C;;
+
+}
+
+.aboutpage p{
+  width: 90%;
+  margin: auto;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 50px;
+  /* or 252% */
+  
+  
+  text-transform: uppercase;
+  
+  color: #0B1F3C;
+}
+
+#contactPage{
+  background-image: url("../images/R3_1 - Photo 1.png");
+  height: 100vh;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+#resortPage{
+  background-image: url("../images/12315.png");
+  height: 100vh;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+
+#noproject .no{
+  background: #0B1F3C;
+
+
+
+}
+
+#noproject .no .back {
+padding: 30px 50px;
+cursor: pointer;
+
+}
+
+#noproject .no .back .line{
+  display: inline-block;
+  width: 30px;
+  height: 1px;
+  background-color: white;
+  margin-block: 6px;
+}
+
+#noproject .no .back span{
+ font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+
+}
+
+#noproject .no .contant{
+margin-top: 100px;
+text-align: center;
+
+}
+
+#noproject .no .contant p{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 50px;
+/* or 252% */
+width: 80%;
+margin: auto;
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
+
+
+#noproject .no .contant h6{
+font-family: 'Arabic Typesetting';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 50px;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-top: 35px;
+margin-bottom: 200px;
+
+
+}
+
+
+#noproject .skew{
+  /* position: relative; */
+height: 100px;
+/* margin-bottom: 30px; */
+transform: skewY(-2deg);
+background: #fff;
+  box-shadow: 40px 40px #fff;
+  margin-bottom: 100px;
+
+
+}
+
+
+
 
 @media all and (min-width: 1200px) and (max-width: 1600px) {
   #allprojects .one {
@@ -735,6 +998,12 @@ footer .summit h6 span {
   text-decoration: none;
   margin: 20px 0 80px 70px;
   color: #000000;
+}
+.onesec{
+  margin:22px 0;
+  padding: 100px 50px;
+  background-color: #0B1F3C;
+  transform: skewY(-2deg);
 }
 }
 
