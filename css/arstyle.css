@@ -164,7 +164,7 @@ color: #FFF;
   background-position: center;
 }
 
-#aboutsec .col-5 {
+#aboutsec .col-sm-5{
   height: 100vh;
   display: flex;
   align-items: center;
@@ -172,7 +172,7 @@ color: #FFF;
   padding: 0px;
 }
 
-#aboutsec .col-7 {
+#aboutsec .col-sm-7 {
   padding-left: 50px;
 }
 
@@ -1047,43 +1047,93 @@ background: #fff;
   margin: 0 22px;
 }
 
-
 @media all and (min-width: 1200px) and (max-width: 1600px) {
   #allprojects .one {
-  width: 80%;
-  margin: auto;
-}
+    width: 70%;
+    margin: auto;
+  }
+
+  #allprojects .one .img{
+    width: 100%;
+    margin: auto;
+  }
 
 
-#aboutsec p {
+  #aboutsec p {
+    font-size: 22px;
+    line-height: 41px;
+  }
+
+  #aboutsec a {
+    font-size: 18px;
+  }
+
+  #build a {
+    display: inline-block;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    margin: 20px 0 80px 70px;
+    color: #000000;
+  }
+  .onesec {
+    margin: 22px 0;
+    padding: 100px 50px;
+    background-color: #0b1f3c;
+    transform: skewY(-2deg);
+  }
+
+  nav ul li {
+    font-size: 15px;
+    line-height: 18px;
+    margin: 0 10px;
+    margin-top: 20px;
+  }
+
+  nav ul img {
+    margin: 0 50px;
+  }
+
   
-  font-size: 22px;
-  line-height: 41px;
- 
+
+footer .contact {
+  margin-left: 5px;
 }
 
-#aboutsec a {
- 
+footer .contact p {
+
   font-size: 18px;
+  line-height: 145.4%;
+  margin-bottom: 36px;
+  color: #ffffff;
 }
 
-#build a {
-  display: inline-block;
- font-family: 'Alexandria', sans-serif;
-  font-style: normal;
-  font-weight: 400;
+footer .contact svg {
+  margin-right: 25px;
   font-size: 20px;
-  line-height: 24px;
-  text-decoration: none;
-  margin: 20px 0 80px 70px;
-  color: #000000;
+  color: #ffffff;
 }
-.onesec{
-  margin:22px 0;
-  padding: 100px 50px;
-  background-color: #0B1F3C;
-  transform: skewY(-2deg);
+
+footer .social {
+  margin-left: 10px;
 }
+
+footer .social a {
+  margin-right: 50px;
+}
+
+footer .summit h6 {
+
+  font-size: 20px;
+  line-height: 145.4%;
+
+  margin: 65px 0 35px 0;
+
+}
+
 }
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
@@ -1098,8 +1148,16 @@ background: #fff;
     margin: 0 3px;
   }
 
-  #aboutsec .col-7 {
+  #aboutsec {
+    height: 70vh;
+  }
+
+  #aboutsec .col-sm-7 {
     padding-left: 50px;
+  }
+
+  #aboutsec .col-sm-5 {
+    height: 74vh;
   }
 
   #aboutsec .title {
@@ -1127,177 +1185,1264 @@ background: #fff;
     margin-top: 21px;
   }
 
+  #build h2,
+  #happening h2 {
+    font-size: 30px;
+    line-height: 37px;
+    margin: 45px 0 20px 0;
+  }
+
+  #build .proj h3 {
+    font-size: 20px;
+    line-height: 24px;
+
+    margin-top: 90px;
+  }
+
+  #build .proj .line {
+    height: 20%;
+  }
+
+  #build .img .contant h5 {
+    font-size: 30px;
+    line-height: 34px;
+  }
+
+  #build .img .contant h1 {
+    font-size: 60px;
+    line-height: 69px;
+  }
+
+  #build a {
+    font-size: 18px;
+    line-height: 22px;
+
+    margin: 10px 0 37px 0;
+  }
+
+  #serves {
+    background-color: #0b1f3c;
+    padding: 45px 0 30px 0;
+  }
+
+  #serves h2 {
+    font-size: 30px;
+    line-height: 37px;
+    margin: 0px 0 20px 0;
+  }
+
+  #serves .col-md-6 h4 {
+    font-size: 25px;
+  }
+
+  #serves .proj h3 {
+    font-size: 10px;
+
+    width: 100%;
+
+    margin-top: 20px;
+  }
+
+  #serves .proj .line {
+    margin-left: 35px;
+
+    height: 20%;
+  }
+
+  #serves .btns a {
+    font-size: 15px;
+    line-height: 40px;
+  }
+
+  #happening .one {
+    padding-bottom: 20px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  #happening h6 {
+    font-size: 8px;
+
+    margin: 10px 10px;
+  }
+
+  #happening p {
+    font-size: 13px;
+    line-height: 16px;
+
+    margin: 0 10px;
+  }
+
+  footer .logo {
+    margin: 40px 0;
+  }
+
+  footer .contact {
+    margin-left: 10px;
+  }
+
+  footer .contact p {
+    font-size: 16px;
+  }
+
+  footer .contact p svg {
+    margin-right: 10px;
+  }
+
+  footer .social img {
+    width: 10%;
+    margin-left: 10px;
+  }
+
+  footer .social a {
+    margin-right: 10px;
+  }
+
+  footer .summit h6 {
+    font-size: 15px;
+
+    margin: 30px 0 35px 0;
+  }
+
+
   
-#build h2,
-#happening h2 {
-  font-size: 30px;
-  line-height: 37px;
-  margin: 45px 0 20px 0;
 }
 
-
-
-
-
-#build .proj h3 {
-
-  font-size: 20px;
-  line-height: 24px;
+@media all and (min-width: 768px) and (max-width: 1024px) {
  
-  margin-top: 90px;
 
-}
-
-#build .proj .line {
-
-  height: 20%;
-
-}
-
-
-#build .img .contant h5 {
-  
-  font-size: 30px;
-  line-height: 34px;
-
-}
-
-#build .img .contant h1 {
-  
-  font-size: 60px;
-  line-height: 69px;
+#allprojects .title h2 {
  
+  font-size: 35px;
+  line-height: 49px;
+
+  margin: 40px 0;
 }
 
-#build a {
+#allprojects .title span {
+ 
+ font-size: 35px;
+  line-height: 49px;
+
+  margin: 40px 0;
+}
+
+#allprojects .one h1 {
 
   font-size: 18px;
+  line-height: 30px;
+
+}
+
+#allprojects .one a {
+
+  font-size: 14px;
   line-height: 22px;
-
-  margin: 10px 0 37px 0;
-
 }
 
-#serves {
-  background-color: #0b1f3c;
-  padding: 45px 0 30px 0;
+
+.onesec {
+  margin: 16px 0;
+ 
 }
 
-#serves h2 {
-  
+.trdsec {
+  padding: 70px 50px;
+}
+
+
+
+.sndsec {
+  padding: 50px;
+}
+
+
+
+.servsespage .row h3 {
+
   font-size: 30px;
-  line-height: 37px;
-  margin: 0px 0 20px 0;
-
+  line-height: 45px;
 }
 
+.servsespage .row p {
 
-
-#serves .col-md-6 h4 {
-
-  font-size: 25px;
+  font-size: 12px;
+  line-height: 35px;
+  margin-top: 0px;
 }
 
-
-
-#serves .proj h3 {
- 
-  font-size: 10px;
- 
-  width: 100%;
+.servsespage .row a {
   
-  margin-top: 20px;
-
+  font-size: 18px;
+  line-height: 20px;
+  margin-top:20px;
 }
 
-#serves .proj .line {
- 
-  margin-left:  35px;
-
-  height: 20%;
- 
+.servsespage .row a span {
+  margin-right: 15px;
 }
 
 
 
-#serves .btns a {
-  
-  font-size: 15px;
-  line-height: 40px;
+#happeningPage .one {
 
-}
-
-#happening .one {
-  background-color: #173c66;
-  padding-bottom: 20px;
   width: 90%;
-  margin: auto;
-  margin-bottom: 50px;
+
 }
 
-#happening h6 {
- 
-  font-size: 8px;
+#happeningPage h6 {
+
+  font-size: 12px;
+
 
   margin: 10px 10px;
 }
 
-#happening p {
- 
-  font-size: 13px;
-  line-height: 16px;
- 
-  margin: 0 10px;
+#happeningPage p {
+
+  font-size: 14px;
+
+  margin: 0 5px;
 }
 
 
 
-footer .logo {
-  margin: 40px 0;
+.aboutpage .col-12 {
+  margin: 25px 0;
 }
+
+.aboutpage h3 {
+ 
+  font-size: 30px;
+
+}
+
+.aboutpage h4 {
+
+  font-size: 25px;
+
+}
+
+.aboutpage h5 {
+
+  font-size: 20px;
+
+}
+
+.aboutpage p {
+
+  font-weight: 400;
+  font-size: 18px;
+ 
+
+ 
+}
+
+
+#projectDetails .head {
+
+  margin-top: 20px;
+}
+
+#projectDetails .head .back h3 {
+
+  font-size: 18px;
+
+}
+
+
+
+#projectDetails ul {
+  width: 67%;
+
+}
+
+
+
+#projectDetails ul li .nav-link {
+  
+  font-size: 14px;
+}
+
+
+
+#projectDetails p {
+  width: 90%;
+
+  font-size: 20px;
+  line-height: 35px;
+
+}
+
+#projectDetails .gallery img {
+  display: block;
+  margin: 30px auto;
+}
+
+#projectDetails .location p svg {
+  margin-right: 15px;
+
+  color: #173c66;
+}
+
+#projectDetails .location .map {
+  width: 90%;
+  margin: 30px auto !important;
+
+  height: 600px !important;
+}
+
+
+
+#noproject .no .back span {
+  font-size: 18px;
+
+}
+
+#noproject .no .contant {
+  margin-top: 60px;
+}
+
+#noproject .no .contant p {
+
+  font-size: 18px;
+  line-height: 40px;
+  width: 80%;
+
+}
+
+#noproject .no .contant h6 {
+
+  font-size: 45px;
+  line-height: 50px;
+  margin-top: 35px;
+  margin-bottom: 150px;
+}
+
+#projectPage .title h2,
+#aboutPage .title h2,
+#contactPage .title h2,
+#resortPage .title h2,
+#educationalPage .title h2,
+#residenralPage .title h2,
+#commercialPage .title h2,
+#newsPage .title h2 {
+
+  font-size: 70px;
+  
+}
+
+
+
+
 
 footer .contact {
-  margin-left: 20px;
+  margin-left: 0px;
 }
 
 footer .contact p {
-  
+
+  font-size: 11px;
+  line-height: 145.4%;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+footer .contact svg {
+  margin-right: 6px;
   font-size: 12px;
-
+  color: #ffffff;
 }
 
-footer .contact p svg {
-  margin-right: 25px;
-}
-
-footer .social img{
-  width: 10%;
-  margin-left: 10px;
+footer .social {
+  margin-left: 5px;
 }
 
 footer .social a {
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 footer .summit h6 {
- 
-  font-size: 15px;
-  
-  margin: 30px 0 35px 0;
+
+  font-size: 20px;
+  line-height: 145.4%;
+
+  margin: 65px 0 35px 0;
 
 }
 
-footer .summit h6 span {
-  color: #196fda;
+
+
+
 }
 
+@media all and (min-width: 575px) and (max-width: 768px) {
+  #aboutsec {
+    height: 50vh;
+  }
 
+  #aboutsec .col-sm-5 img {
+    width: 90%;
+    margin: auto;
+  }
 
+  #aboutsec .col-sm-5 {
+    height: 60vh;
+  }
+}
 
+@media all and (min-width: 480px) and (max-width: 575px) {
+  #aboutsec {
+    height: 100vh;
+  }
+
+  #aboutsec .col-sm-5 img {
+    width: 80%;
+    margin: auto;
+  }
+
+  #aboutsec p {
+    font-size: 10px;
+    line-height: 25px;
+    margin-top: 20px;
+  }
+
+  #aboutsec .col-sm-5 {
+    height: 45vh;
+  }
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
+  /*   
+  #aboutsec{
+height: 60vh;
+  } */
+
+  #aboutsec .col-sm-7 {
+    padding-left: 50px;
+  }
+
+  #aboutsec .title {
+    margin: 30px 0;
+  }
+  #aboutsec .title h2 {
+    font-size: 45px;
+    line-height: 115px;
+  }
+
+  #aboutsec .title h6 {
+    font-size: 25px;
+    top: 40%;
+    left: 30.2%;
+  }
+
+  #aboutsec p {
+    font-size: 10px;
+    line-height: 25px;
+  }
+
+  #aboutsec a {
+    font-size: 10px;
+    line-height: 20px;
+    margin-top: 21px;
+  }
+
+  #build h2,
+  #happening h2 {
+    font-size: 30px;
+    line-height: 37px;
+    margin: 45px 0 20px 0;
+  }
+
+  #build .proj h3 {
+    font-size: 20px;
+    line-height: 24px;
+
+    margin-top: 90px;
+  }
+
+  #build .proj .line {
+    height: 20%;
+  }
+
+  #build .img .contant h5 {
+    font-size: 30px;
+    line-height: 34px;
+  }
+
+  #build .img .contant h1 {
+    font-size: 60px;
+    line-height: 69px;
+  }
+
+  #build a {
+    font-size: 18px;
+    line-height: 22px;
+
+    margin: 10px 0 37px 0;
+  }
+
+  #serves {
+    background-color: #0b1f3c;
+    padding: 45px 0 30px 0;
+  }
+
+  #serves h2 {
+    font-size: 30px;
+    line-height: 37px;
+    margin: 0px 0 20px 0;
+  }
+
+  #serves .col-md-6 h4 {
+    font-size: 25px;
+  }
+
+  #serves .proj h3 {
+    position: absolute;
+    font-size: 20px;
+    left: 65%;
+    width: 60%;
+
+    margin-top: 0px;
+  }
+  #serves .proj .line {
+    margin-left: 20px;
+
+    height: 20%;
+  }
+
+  #serves .btns a {
+    font-size: 15px;
+    line-height: 40px;
+  }
+
+  #happening .one {
+    padding-bottom: 20px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  #happening h6 {
+    font-size: 8px;
+
+    margin: 10px 10px;
+  }
+
+  #happening p {
+    font-size: 13px;
+    line-height: 16px;
+
+    margin: 0 10px;
+  }
+
+  footer .logo {
+    margin: 40px 0;
+  }
+
+  footer .contact {
+    margin-left: 20px;
+  }
+
+  footer .contact p {
+    font-size: 12px;
+  }
+
+  footer .contact p svg {
+    margin-right: 25px;
+  }
+
+  footer .social img {
+    width: 10%;
+    margin-left: 10px;
+  }
+
+  footer .social a {
+    margin-right: 10px;
+  }
+
+  footer .summit h6 {
+    font-size: 15px;
+
+    margin: 30px 0 35px 0;
+  }
+
+
+.onesec {
+  margin: 12px 0;
+ 
+}
+  
+.trdsec {
+  padding: 70px 50px;
+}
+
+
+
+.sndsec {
+  padding: 50px;
+}
+
+
+
+.servsespage .row h3 {
+
+  font-size: 40px;
+  line-height: 45px;
+  margin-top: 20px;
+
+}
+
+.servsespage .row p {
+
+  font-size: 16px;
+  line-height: 35px;
+  margin-top: 0px;
+}
+
+.servsespage .row a {
+  
+  font-size: 18px;
+  line-height: 20px;
+  margin-top:20px;
+}
+
+.servsespage .row a span {
+  margin-right: 15px;
+}
+
+
+
+#allprojects .title h2 {
+ 
+  font-size: 25px;
+  line-height: 40px;
+
+  margin: 30px 0;
+}
+
+#allprojects .title span {
+ 
+ font-size: 25px;
+  line-height: 40px;
+
+  margin: 30px 0;
+}
+
+#allprojects .one h1 {
+
+  font-size: 18px;
+  line-height: 30px;
+
+}
+
+#allprojects .one a {
+
+  font-size: 14px;
+  line-height: 22px;
+}
+
+
+#happeningPage .one {
+
+  width: 90%;
+
+}
+
+#happeningPage h6 {
+
+  font-size: 12px;
+
+
+  margin: 10px 10px;
+}
+
+#happeningPage p {
+
+  font-size: 14px;
+
+  margin: 0 5px;
+}
+
+
+
+.aboutpage .col-12 {
+  margin: 20px 0;
+}
+
+.aboutpage .col-12 img{
+  width: 30%;
+  margin: auto;
+}
+
+
+.aboutpage h3 {
+ 
+  font-size: 25px;
+
+}
+
+.aboutpage h4 {
+
+  font-size: 20px;
+
+}
+
+.aboutpage h5 {
+
+  font-size: 18px;
+
+}
+
+.aboutpage p {
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+ 
+}
+
+
+#projectDetails .head {
+
+  margin-top: 20px;
+}
+
+#projectDetails .head .back h3 {
+margin-left: 3px;
+  font-size: 12px;
+
+}
+#projectDetails .head .back h3 span{
+  width: 10px;
+}
+
+
+#projectDetails ul {
+  width: 75%;
+
+}
+
+
+
+#projectDetails ul li .nav-link {
+  
+  font-size: 12px;
+  padding: 5px;
+}
+
+
+
+#projectDetails p {
+  width: 90%;
+
+  font-size: 16px;
+  line-height: 30px;
+
+}
+
+#projectDetails .gallery img {
+  display: block;
+  margin: 30px auto;
+}
+
+#projectDetails .location p svg {
+  margin-right: 15px;
+
+  color: #173c66;
+}
+
+#projectDetails .location .map {
+  width: 90%;
+  margin: 30px auto !important;
+
+  height: 600px !important;
+}
+
+
+
+#noproject .no .back span {
+  font-size: 15px;
+
+}
+
+#noproject .no .contant {
+  margin-top: 50px;
+}
+
+#noproject .no .contant p {
+
+  font-size: 16px;
+  line-height: 40px;
+  width: 90%;
+
+}
+
+#noproject .no .contant h6 {
+
+  font-size: 35px;
+  line-height: 50px;
+  margin-top: 35px;
+  margin-bottom: 150px;
+}
+
+#projectPage .title h2,
+#aboutPage .title h2,
+#contactPage .title h2,
+#resortPage .title h2,
+#educationalPage .title h2,
+#residenralPage .title h2,
+#commercialPage .title h2,
+#newsPage .title h2 {
+
+  font-size: 70px;
+  
+}
+
+
+
+  footer .logo {
+    margin: 40px 0;
+  }
+
+  footer .contact {
+    margin-left: 10px;
+  }
+
+  footer .contact p {
+    font-size: 16px;
+  }
+
+  footer .contact p svg {
+    margin-right: 10px;
+  }
+
+  footer .social img {
+    width: 5%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+
+  footer .social a {
+    margin-right: 10px;
+  }
+
+  footer .summit h6 {
+    font-size: 15px;
+
+    margin: 30px 0 35px 0;
+  }
+
+
+
 }
 
 @media all and (max-width: 480px) {
+  #aboutsec {
+    height: 85vh;
+  }
+
+  #aboutsec .col-sm-5 img {
+    width: 80%;
+    margin: auto;
+  }
+
+  #aboutsec p {
+    font-size: 10px;
+    line-height: 25px;
+    margin-top: 20px;
+  }
+
+  #aboutsec .col-sm-5 {
+    height: 35vh;
+  }
+  #aboutsec .title {
+    margin: 18px 0;
+  }
+  #aboutsec .title h2 {
+    font-size: 45px;
+    line-height: 115px;
+  }
+
+  #aboutsec .title h6 {
+    font-size: 25px;
+    top: 40%;
+    left: 30.2%;
+  }
+
+  #aboutsec p {
+    font-size: 10px;
+    line-height: 25px;
+  }
+
+  #aboutsec a {
+    font-size: 10px;
+    line-height: 20px;
+    margin-top: 21px;
+  }
+
+  #build h2,
+  #happening h2 {
+    font-size: 25px;
+    line-height: 37px;
+    margin: 30px 0 20px 0;
+  }
+
+  #build .proj h3 {
+    font-size: 16px;
+    line-height: 24px;
+
+    margin-top: 90px;
+  }
+
+  #build .proj .line {
+    height: 30%;
+  }
+
+  #build .img .contant h5 {
+    font-size: 25px;
+    line-height: 20px;
+  }
+
+  #build .img .contant h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  #build a {
+    font-size: 12px;
+    line-height: 22px;
+
+    margin: 10px 0 37px 0;
+  }
+
+  #serves {
+    background-color: #0b1f3c;
+    padding: 45px 0 30px 0;
+  }
+
+  #serves h2 {
+    font-size: 25px;
+    line-height: 30px;
+    margin: 0px 0 20px 0;
+  }
+
+  #serves .col-md-6 h4 {
+    font-size: 25px;
+  }
+
+  #serves .proj h3 {
+    position: absolute;
+    font-size: 20px;
+    left: 65%;
+    width: 60%;
+
+    margin-top: 0px;
+  }
+
+  #serves .proj .line {
+    margin-left: 10px;
+
+    height: 50%;
+  }
+
+  #serves .btns a {
+    font-size: 15px;
+    line-height: 40px;
+  }
+
+  #happening .one {
+    padding-bottom: 20px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  #happening h6 {
+    font-size: 8px;
+
+    margin: 10px 10px;
+  }
+
+  #happening p {
+    font-size: 13px;
+    line-height: 16px;
+
+    margin: 0 10px;
+  }
+
+  footer .logo {
+    margin: 40px 0;
+  }
+
+  footer .contact {
+    margin-left: 20px;
+  }
+
+  footer .contact p {
+    font-size: 12px;
+  }
+
+  footer .contact p svg {
+    margin-right: 25px;
+  }
+
+  footer .social img {
+    width: 10%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+
+  footer .social a {
+    margin-right: 10px;
+  }
+
+  footer .summit h6 {
+    font-size: 15px;
+
+    margin: 30px 0 35px 0;
+  }
+
+
+  
+.onesec {
+  margin: 8px 0;
+ 
+}
+
+  
+.trdsec {
+  padding: 70px 50px;
+}
+
+
+
+.sndsec {
+  padding: 50px;
+}
+
+
+
+.servsespage .row h3 {
+
+  font-size: 22px;
+  line-height: 45px;
+  margin-top: 20px;
+
+}
+
+.servsespage .row p {
+
+  font-size: 12px;
+  line-height: 20px;
+  margin-top: 0px;
+}
+
+.servsespage .row a {
+  
+  font-size: 14px;
+  line-height: 20px;
+  margin-top:20px;
+}
+
+.servsespage .row a span {
+  margin-right: 15px;
+}
+
+
+
+
+#allprojects .title h2 {
+ 
+  font-size: 20px;
+  line-height: 40px;
+
+  margin: 20px 0;
+}
+
+#allprojects .title span {
+ 
+ font-size: 20px;
+  line-height: 40px;
+
+  margin: 20px 0;
+}
+
+#allprojects .one h1 {
+
+  font-size: 18px;
+  line-height: 30px;
+
+}
+
+#allprojects .one a {
+
+  font-size: 14px;
+  line-height: 22px;
+}
+
+
+
+#happeningPage .one {
+
+  width: 90%;
+
+}
+
+#happeningPage h6 {
+
+  font-size: 12px;
+
+
+  margin: 10px 10px;
+}
+
+#happeningPage p {
+
+  font-size: 14px;
+
+  margin: 0 5px;
+}
+
+
+.aboutpage .col-12 {
+  margin: 20px 0;
+}
+
+.aboutpage .col-12 img{
+  width: 30%;
+  margin: auto;
+}
+
+
+.aboutpage h3 {
+ 
+  font-size: 20px;
+
+}
+
+.aboutpage h4 {
+
+  font-size: 15px;
+
+}
+
+.aboutpage h5 {
+
+  font-size: 13px;
+
+}
+
+.aboutpage p {
+
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 20px;
+ 
+}
+
+
+
+
+#projectDetails .head {
+
+  margin-top: 20px;
+  display: block;
+
+}
+
+#projectDetails .head .back h3 {
+margin-left: 3px;
+  font-size: 12px;
+
+}
+#projectDetails .head .back h3 span{
+  width: 10px;
+}
+
+
+#projectDetails ul {
+  width: 100%;
+  margin: 0 3px;
+
+}
+
+
+
+#projectDetails ul li .nav-link {
+  
+  font-size: 12px;
+  padding: 5px;
+}
+
+
+
+#projectDetails p {
+  width: 90%;
+
+  font-size: 12px;
+  line-height: 30px;
+
+}
+
+#projectDetails .gallery img {
+  display: block;
+  margin: 30px auto;
+}
+
+#projectDetails .location p svg {
+  margin-right: 15px;
+
+  color: #173c66;
+}
+
+#projectDetails .location .map {
+  width: 90%;
+  margin: 30px auto !important;
+
+  height: 600px !important;
+}
+
+
+#noproject .no .back span {
+  font-size: 13px;
+
+}
+
+#noproject .no .contant {
+  margin-top: 30px;
+}
+
+#noproject .no .contant p {
+
+  font-size: 13px;
+  line-height: 30px;
+  width: 95%;
+
+}
+
+#noproject .no .contant h6 {
+
+  font-size: 25px;
+  line-height: 50px;
+  margin-top: 35px;
+  margin-bottom: 80px;
+}
+
+
+
+#projectPage .title h2,
+#aboutPage .title h2,
+#contactPage .title h2,
+#resortPage .title h2,
+#educationalPage .title h2,
+#residenralPage .title h2,
+#commercialPage .title h2,
+#newsPage .title h2 {
+
+  font-size: 50px;
+  
+}
+
 }
