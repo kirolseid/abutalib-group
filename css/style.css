@@ -495,10 +495,10 @@ footer .summit h6 span {
   height: 100vh;
   background-size: 100% 100%;
   background-position: center;
-}
+}title
 
 #projectPage .title ,#aboutPage .title ,#contactPage .title ,#resortPage .title,
-#educationalPage .title ,#residenralPage .title ,#commercialPage .title{
+#educationalPage .title ,#residenralPage .title ,#commercialPage .title ,#newsPage .title{
   height: 70%;
   display: flex;
   align-items: center;
@@ -508,7 +508,7 @@ footer .summit h6 span {
 
 
 #projectPage .title h2 , #aboutPage .title h2 ,#contactPage .title h2 ,#resortPage .title h2,
-#educationalPage .title h2 ,#residenralPage .title h2, #commercialPage .title h2{
+#educationalPage .title h2 ,#residenralPage .title h2, #commercialPage .title h2 ,#newsPage .title h2{
   font-family: "Arabic Typesetting";
   font-style: normal;
   font-weight: 400;
@@ -818,6 +818,10 @@ color: #FFFFFF;
 }
 
 
+.servsespage .row a span{
+  margin-right: 15px;
+}
+
 #aboutPage{
   background-image: url("../images/image 6.png");
   height: 100vh;
@@ -923,6 +927,13 @@ color: #0B1F3C;
 }
 
 
+#newsPage{
+     background-image: url("../images/off2 1.png");
+  height: 100vh;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
 #noproject .no{
   background: #0B1F3C;
 
@@ -1004,6 +1015,37 @@ background: #fff;
 
 
 }
+
+
+
+#happeningPage .one {
+  background-color: #fff;
+  padding-bottom: 20px;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+#happeningPage h6 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  color: #000;
+  margin: 10px 22px;
+}
+
+#happeningPage p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000;
+  margin: 0 22px;
+}
+
 
 
 

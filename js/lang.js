@@ -116,8 +116,11 @@ var arrLang = {
 
       "contactPageh5": "اعمل معنا",
       
-      "noProject":"لا توجد مشاريع الآن",
+      "noProject": "لا توجد مشاريع الآن",
+      
+      "send":"ارسال",
 
+      "newsPageTitleh2":"الاخبار"
        
     }
   };
@@ -135,13 +138,15 @@ function changeLanguage(lang) {
     if(language=='en'){
         $('#style').attr('href','css/style.css')
         var lang = "en";
-        location.hash = lang;
+      location.hash = lang;
+        enplaceholder();
 
     }else if(language=='ar'){
         $('#style').attr('href','css/arstyle.css')
 
         var lang = "ar";
         location.hash = lang;
+      arplaceholder(); 
 
     }else{
         $('#style').attr('href','css/style.css')
@@ -160,12 +165,12 @@ function changeLanguage(lang) {
     var lang = $(this).attr("id");
     if(lang== "en"){
         localStorage.setItem('lang','en')
-        $('#style').attr('href','css/style.css')
-        
+      $('#style').attr('href', 'css/style.css')
+       enplaceholder();
     }else if(lang== "ar"  ){
         localStorage.setItem('lang','ar')
         $('#style').attr('href','css/arstyle.css')
-
+arplaceholder(); 
 
     }
       location.hash = lang;
@@ -174,3 +179,20 @@ function changeLanguage(lang) {
       $(this).text(arrLang[lang][$(this).attr("key")]);
     });
   });
+
+
+  function arplaceholder() {
+    $(".name").attr("placeholder", "الاسم *");
+    $(".email").attr("placeholder", "الايميل *");
+    $(".phone").attr("placeholder", "رقم الهاتف *");
+    $(".message").attr("placeholder", "اترك رسالتك *");
+
+
+}
+  
+function enplaceholder() {
+  $(".name").attr("placeholder", "Name *");
+  $(".email").attr("placeholder", "Email *");
+  $(".phone").attr("placeholder", "Phone Number *");
+  $(".message").attr("placeholder", "Message *");
+}

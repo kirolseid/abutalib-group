@@ -39,7 +39,7 @@ nav ul {
 
 nav ul li {
   list-style: none;
-  font-family: "Montserrat";
+ font-family: 'Alexandria', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -145,7 +145,7 @@ color: #FFF;
 }
 
 .respNav li {
-  font-family: "Montserrat";
+ font-family: 'Alexandria', sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
@@ -191,7 +191,7 @@ color: #FFF;
 }
 
 #aboutsec .title h6 {
-  font-family: "Montserrat";
+ font-family: 'Alexandria', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -207,7 +207,7 @@ color: #FFF;
 }
 
 #aboutsec p {
-  font-family: "Montserrat";
+ font-family: 'Alexandria', sans-serif;
   font-style: normal;
   font-weight: 200;
   font-size: 35px;
@@ -217,7 +217,7 @@ color: #FFF;
 }
 
 #aboutsec a {
-  font-family: "Montserrat";
+ font-family: 'Alexandria', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
@@ -230,7 +230,7 @@ color: #FFF;
 
 #build h2,
 #happening h2 {
-  font-family: "Montserrat";
+ font-family: 'Alexandria', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -256,7 +256,7 @@ color: #FFF;
 }
 
 #build .proj h3 {
-  font-family: "Montserrat";
+ font-family: 'Alexandria', sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
@@ -293,7 +293,7 @@ color: #FFF;
 }
 
 #build .img .contant h5 {
-  font-family: "Arabic Typesetting";
+  font-family: 'Alexandria', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
@@ -303,7 +303,7 @@ color: #FFF;
 }
 
 #build .img .contant h1 {
-  font-family: "Arabic Typesetting";
+  font-family: 'Alexandria', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 100px;
@@ -313,7 +313,7 @@ color: #FFF;
 
 #build a {
   display: inline-block;
-  font-family: "Montserrat";
+ font-family: 'Alexandria', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -329,7 +329,7 @@ color: #FFF;
 }
 
 #serves h2 {
-  font-family: "Montserrat";
+ font-family: 'Alexandria', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -356,7 +356,7 @@ color: #FFF;
   width: 100%;
   top: 45%;
   text-align: center;
-  font-family: "Arabic Typesetting";
+  font-family: 'Alexandria', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -378,7 +378,7 @@ color: #FFF;
   width: 107%;
   line-height: 24px;
   color: #ffffff;
-  margin-top: 70px;
+  margin-top: 107px;
   transform: rotate(270deg);
 }
 
@@ -397,7 +397,7 @@ color: #FFF;
 
 #serves .btns a {
   margin: auto;
-  font-family: "Montserrat";
+ font-family: 'Alexandria', sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
@@ -418,7 +418,7 @@ color: #FFF;
 }
 
 #happening h6 {
-  font-family: "Montserrat";
+ font-family: 'Alexandria', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -428,7 +428,7 @@ color: #FFF;
 }
 
 #happening p {
-  font-family: "Montserrat";
+ font-family: 'Alexandria', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -453,7 +453,7 @@ footer .contact {
 }
 
 footer .contact p{
-  font-family: "Montserrat";
+ font-family: 'Alexandria', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -478,7 +478,7 @@ footer .social a {
 }
 
 footer .summit h6 {
-  font-family: "Montserrat";
+ font-family: 'Alexandria', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -502,7 +502,7 @@ footer .summit h6 span {
 }
 
 #projectPage .title ,#aboutPage .title ,#contactPage .title ,#resortPage .title,
-#educationalPage .title ,#residenralPage .title ,#commercialPage .title{
+#educationalPage .title ,#residenralPage .title ,#commercialPage .title , #newsPage .title{
   height: 70%;
   display: flex;
   align-items: center;
@@ -512,8 +512,8 @@ footer .summit h6 span {
 
 
 #projectPage .title h2 , #aboutPage .title h2 ,#contactPage .title h2 ,#resortPage .title h2,
-#educationalPage .title h2 ,#residenralPage .title h2, #commercialPage .title h2{
-  font-family: "Arabic Typesetting";
+#educationalPage .title h2 ,#residenralPage .title h2, #commercialPage .title h2 , #newsPage .title h2{
+  font-family: 'Alexandria', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 100px;
@@ -528,7 +528,7 @@ footer .summit h6 span {
 }
 
 #allprojects .title h2{
-  font-family: "Montserrat";
+ font-family: 'Alexandria', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
@@ -541,7 +541,7 @@ footer .summit h6 span {
 
 #allprojects .title span {
   color: #173c66;
-  font-family: "Montserrat";
+ font-family: 'Alexandria', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
@@ -558,7 +558,7 @@ footer .summit h6 span {
 }
 
 #allprojects .one h1 {
-  font-family: "Montserrat";
+ font-family: 'Alexandria', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 25px;
@@ -568,7 +568,7 @@ footer .summit h6 span {
 }
 
 #allprojects .one a {
-  font-family: "Montserrat";
+ font-family: 'Alexandria', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -585,7 +585,7 @@ footer .summit h6 span {
 }
 
 #projectDetails .head .back h3 {
-  font-family: "Montserrat";
+ font-family: 'Alexandria', sans-serif;
   margin-left: 30px;
   font-style: normal;
   font-weight: 600;
@@ -608,7 +608,7 @@ footer .summit h6 span {
 }
 
 #projectDetails ul li {
-  font-family: "Montserrat";
+ font-family: 'Alexandria', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
@@ -619,7 +619,7 @@ footer .summit h6 span {
 }
 
 #projectDetails ul li .nav-link {
-  font-family: "Montserrat";
+ font-family: 'Alexandria', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
@@ -639,7 +639,7 @@ footer .summit h6 span {
 }
 
 #projectDetails .contactus button {
-  font-family: "Montserrat";
+ font-family: 'Alexandria', sans-serif;
   font-style: normal;
   font-weight: 900 !important;
   font-size: 20px;
@@ -652,7 +652,7 @@ footer .summit h6 span {
 
 #projectDetails p {
   width: 85%;
-  font-family: "Montserrat";
+ font-family: 'Alexandria', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
@@ -699,10 +699,10 @@ footer .summit h6 span {
 
  .contact input::placeholder,
  .contact textarea::placeholder {
-  font-family: "Montserrat";
+ font-family: 'Alexandria', sans-serif;
   font-style: italic;
   font-weight: 200;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 24px;
 
   color: #000000;
@@ -711,7 +711,7 @@ footer .summit h6 span {
 }
 
  .contact button {
-  font-family: "Montserrat";
+ font-family: 'Alexandria', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -728,12 +728,12 @@ footer .summit h6 span {
 }
 
 .contact h5{
-  font-family: 'Montserrat';
+  font-family: 'Alexandria', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 24px;
-text-align: left;
+text-align: right;
 margin-left: 20px;
 color: #000000;
 
@@ -774,7 +774,7 @@ color: #000000;
 }
 
 .servsespage .row h3{
-  font-family: 'Arabic Typesetting';
+  font-family: 'Alexandria', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 50px;
@@ -786,7 +786,7 @@ color: #FFFFFF;
 }
 
 .servsespage .row p{
-  font-family: 'Montserrat';
+  font-family: 'Alexandria', sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
@@ -805,7 +805,7 @@ color: #FFFFFF;
 
 .servsespage .row a{
   
-font-family: 'Montserrat';
+font-family: 'Alexandria', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -821,6 +821,11 @@ color: #FFFFFF;
   
 }
 
+.servsespage .row a span{
+  margin-left: 15px;
+}
+
+
 
 #aboutPage{
   background-image: url("../images/image 6.png");
@@ -834,7 +839,7 @@ color: #FFFFFF;
 }
 
 .aboutpage h3{
-  font-family: 'Montserrat';
+  font-family: 'Alexandria', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
@@ -849,7 +854,7 @@ color: #FFFFFF;
 }
 
 .aboutpage h4{
-  font-family: 'Montserrat';
+  font-family: 'Alexandria', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 30px;
@@ -861,7 +866,7 @@ color: #0B1F3C;
 }
 
 .aboutpage h5{
-  font-family: 'Montserrat';
+  font-family: 'Alexandria', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 25px;
@@ -876,16 +881,12 @@ color: #0B1F3C;
 .aboutpage p{
   width: 90%;
   margin: auto;
-  font-family: 'Montserrat';
+  font-family: 'Alexandria', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 50px;
-  /* or 252% */
   
-  display: flex;
-  align-items: center;
-  text-align: center;
   text-transform: uppercase;
   
   color: #0B1F3C;
@@ -927,6 +928,13 @@ color: #0B1F3C;
 }
 
 
+#newsPage{
+     background-image: url("../images/off2 1.png");
+  height: 100vh;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
 #noproject .no{
   background: #0B1F3C;
 
@@ -949,7 +957,7 @@ cursor: pointer;
 }
 
 #noproject .no .back span{
- font-family: 'Montserrat';
+ font-family: 'Alexandria', sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 20px;
@@ -965,7 +973,7 @@ text-align: center;
 }
 
 #noproject .no .contant p{
-font-family: 'Montserrat';
+font-family: 'Alexandria', sans-serif;
 font-style: normal;
 font-weight: 300;
 font-size: 20px;
@@ -1011,6 +1019,34 @@ background: #fff;
 
 
 
+#happeningPage .one {
+  background-color: #fff;
+  padding-bottom: 20px;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+#happeningPage h6 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  color: #000;
+  margin: 10px 22px;
+}
+
+#happeningPage p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000;
+  margin: 0 22px;
+}
+
 
 @media all and (min-width: 1200px) and (max-width: 1600px) {
   #allprojects .one {
@@ -1033,7 +1069,7 @@ background: #fff;
 
 #build a {
   display: inline-block;
-  font-family: "Montserrat";
+ font-family: 'Alexandria', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
