@@ -49,7 +49,7 @@ var arrLang = {
     },
     "ar": {
       "navHOME": "الرائسية",
-      "navABOUT": "عننا",
+      "navABOUT": "معلومات عنا",
       "navCONTACT": "تواصل معنا",
       "navnews": "اخبار",
       "navservies": "خدمتنا",
@@ -187,6 +187,16 @@ arplaceholder();
     $(".phone").attr("placeholder", "رقم الهاتف *");
     $(".message").attr("placeholder", "اترك رسالتك *");
 
+    $("nav span").click(() => {
+        $(".closeNav").css("left", "0px");
+        $(".backgroungHoverCover").css("width", "100%");
+      });
+      
+      $(".closeNav .img").click(() => {
+        $(".closeNav").css("left", "-1000px");
+        $(".backgroungHoverCover").css("width", "0%");
+      });
+
 
 }
   
@@ -195,4 +205,14 @@ function enplaceholder() {
   $(".email").attr("placeholder", "Email *");
   $(".phone").attr("placeholder", "Phone Number *");
   $(".message").attr("placeholder", "Message *");
+
+  $("nav span").click(() => {
+    $(".closeNav").css("right", "0px");
+    $(".backgroungHoverCover").css("width", "100%");
+  });
+  
+  $(".closeNav .img").click(() => {
+    $(".closeNav").css("right", "-1000px");
+    $(".backgroungHoverCover").css("width", "0%");
+  });
 }
