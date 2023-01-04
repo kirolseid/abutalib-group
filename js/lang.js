@@ -194,7 +194,7 @@ arplaceholder();
       });
       
       $(".closeNav .img").click(() => {
-        $(".closeNav").css("left", "-1000px");
+        $(".closeNav").css("left", "-1500px");
         // $(".backgroungHoverCover").css("width", "0%");
       });
 
@@ -213,7 +213,7 @@ function enplaceholder() {
   });
   
   $(".closeNav .img").click(() => {
-    $(".closeNav").css("right", "-1000px");
+    $(".closeNav").css("right", "-1500px");
     // $(".backgroungHoverCover").css("width", "0%");
   });
 }

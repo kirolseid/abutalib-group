@@ -75,9 +75,10 @@ nav ul img {
 }
 
 .closeNav {
+  
   width: 90%;
   position: fixed;
-  right: -1000px;
+  right: -1500px;
   top: 0;
   z-index: 99999999999999999999;
   transition: 1.5s;

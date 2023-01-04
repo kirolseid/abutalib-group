@@ -82,7 +82,7 @@ color: #FFF;
 .closeNav {
   width: 90%;
   position: fixed;
-  left: -1000px;
+  left: 1500px;
   top: 0;
   z-index: 99999999999999999999;
   transition: 1.5s;
@@ -98,7 +98,7 @@ color: #FFF;
 
 .respNav {
   background-color: #fff;
-  width: 90%;
+  width: 70%;
   height: 100vh;
 }
 
