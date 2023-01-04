@@ -152,6 +152,7 @@ function changeLanguage(lang) {
         $('#style').attr('href','css/style.css')
         var lang = "en";
         location.hash = lang;
+        enplaceholder();
 
     }
     
@@ -189,12 +190,12 @@ arplaceholder();
 
     $("nav span").click(() => {
         $(".closeNav").css("left", "0px");
-        $(".backgroungHoverCover").css("width", "100%");
+        // $(".backgroungHoverCover").css("width", "100%");
       });
       
       $(".closeNav .img").click(() => {
         $(".closeNav").css("left", "-1000px");
-        $(".backgroungHoverCover").css("width", "0%");
+        // $(".backgroungHoverCover").css("width", "0%");
       });
 
 
@@ -208,11 +209,11 @@ function enplaceholder() {
 
   $("nav span").click(() => {
     $(".closeNav").css("right", "0px");
-    $(".backgroungHoverCover").css("width", "100%");
+    // $(".backgroungHoverCover").css("width", "100%");
   });
   
   $(".closeNav .img").click(() => {
     $(".closeNav").css("right", "-1000px");
-    $(".backgroungHoverCover").css("width", "0%");
+    // $(".backgroungHoverCover").css("width", "0%");
   });
 }
