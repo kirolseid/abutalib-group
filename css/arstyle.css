@@ -80,7 +80,7 @@ color: #FFF;
 
 
 .closeNav {
-  width: 70%;
+  width: 90%;
   position: fixed;
   left: -1000px;
   top: 0;
@@ -150,7 +150,8 @@ color: #FFF;
   font-weight: 300;
   font-size: 20px;
   line-height: 24px;
-padding: 20px;
+padding: 10px;
+margin-right: 20px;
   color: #000000;
 }
 
