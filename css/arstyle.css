@@ -557,6 +557,11 @@ footer .summit h6 span {
   margin: auto;
 }
 
+#allprojects .one .img{
+  width: 100%;
+  margin: auto;
+}
+
 #allprojects .one h1 {
  font-family: 'Alexandria', sans-serif;
   font-style: normal;
