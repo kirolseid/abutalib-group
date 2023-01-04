@@ -1683,7 +1683,7 @@ height: 60vh;
   }
 
   #build .img .contant h1 {
-    font-size: 60px;
+    font-size: 30px;
     line-height: 69px;
   }
 
@@ -1712,12 +1712,13 @@ height: 60vh;
   #serves .proj h3 {
     position: absolute;
     font-size: 20px;
-    left: 65%;
+    right: 65%;
     width: 60%;
 
-    margin-top: 0px;
+    margin-top: 150px;
   }
   #serves .proj .line {
+    
     margin-left: 20px;
 
     height: 20%;
@@ -2073,13 +2074,13 @@ margin-left: 3px;
   }
   #aboutsec .title h2 {
     font-size: 45px;
-    line-height: 115px;
+    line-height: 70px;
   }
 
   #aboutsec .title h6 {
     font-size: 25px;
-    top: 40%;
-    left: 30.2%;
+    top: 20%;
+    left: 40.2%;
   }
 
   #aboutsec p {
@@ -2102,13 +2103,13 @@ margin-left: 3px;
 
   #build .proj h3 {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 0px;
 
-    margin-top: 90px;
+    margin-top: 0px;
   }
 
   #build .proj .line {
-    height: 30%;
+    height: 70px;
   }
 
   #build .img .contant h5 {
@@ -2146,10 +2147,10 @@ margin-left: 3px;
   #serves .proj h3 {
     position: absolute;
     font-size: 20px;
-    left: 65%;
+    right: 65%;
     width: 60%;
 
-    margin-top: 0px;
+    margin-top: 150px;
   }
 
   #serves .proj .line {
