@@ -120,7 +120,9 @@ var arrLang = {
       
       "send":"ارسال",
 
-      "newsPageTitleh2":"الاخبار"
+      "newsPageTitleh2":"الاخبار",
+      "language":"اللغة"
+
        
     }
   };
