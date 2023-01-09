@@ -196,7 +196,7 @@ arplaceholder();
       });
       
       $(".closeNav .img").click(() => {
-        $(".closeNav").css("left", "-1500px");
+        $(".closeNav").css("left", "-2000px");
         // $(".backgroungHoverCover").css("width", "0%");
       });
 
@@ -215,7 +215,7 @@ function enplaceholder() {
   });
   
   $(".closeNav .img").click(() => {
-    $(".closeNav").css("right", "-1500px");
+    $(".closeNav").css("right", "-2000px");
     // $(".backgroungHoverCover").css("width", "0%");
   });
 }
